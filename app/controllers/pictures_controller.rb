@@ -14,6 +14,5 @@ class PicturesController < ApplicationController
     def create
         render text: "Saving a picture. URL: #{params[:url]}, Title: #{params[:title]}, Artist: #{params[:artist]}"
     end
-  end
   
   end
